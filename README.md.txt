@@ -86,3 +86,13 @@ Para levantar el proyecto de forma nativa en su máquina, los servicios deben in
     ./mvnw spring-boot:run
     ```
     *Asegúrese de que la consola indique que el servidor está completamente activo en `http://localhost:8761
+
+### Base de Datos
+CREATE DATABASE IF NOT EXISTS bd_seguridad;
+CREATE DATABASE IF NOT EXISTS bd_entrenadores;
+CREATE DATABASE IF NOT EXISTS bd_pokedex;
+CREATE DATABASE IF NOT EXISTS bd_torneos;
+CREATE DATABASE IF NOT EXISTS bd_tienda;
+CREATE DATABASE IF NOT EXISTS bd_medallas;
+CREATE DATABASE IF NOT EXISTS bd_inventario;
+CREATE DATABASE IF NOT EXISTS bd_centropk;

@@ -40,10 +40,9 @@ public class EntrenadorServiceTest {
 
     @BeforeEach
     public void setUp() {
-        // Objeto de la base de datos (Entidad)
+
         entrenador = new Entrenador(1L, "Ash", "Ketchum", "kanto", 10, null);
 
-        // Objeto que retorna el negocio (DTO)
         entrenadorDTO = new EntrenadorDTO();
         entrenadorDTO.setId(1L);
         entrenadorDTO.setNombre("Ash");
